@@ -3,10 +3,12 @@
 <manifest>
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
   <remote name="yocto" fetch="https://github.com/yoctoproject/" />
-  <remote name="riscv" fetch="https://github.com/riscv/" />
+  <remote name="riscv" fetch="https://github.com/ze-zhang/" />
+  <remote name="rvcore" fetch="https://github.com/ze-zhang/" />
   <default remote="openembedded" revision="master" />
 
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="master" />
+  <project name="meta-rvcore" remote="rvcore" path="meta-rvcore" revision="main" />
   <project name="poky" remote="yocto" path="poky" revision="master" />
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="master" />
 
