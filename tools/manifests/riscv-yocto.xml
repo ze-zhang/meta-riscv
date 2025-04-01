@@ -3,13 +3,22 @@
 <manifest>
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
   <remote name="yocto" fetch="https://github.com/yoctoproject/" />
-  <remote name="riscv" fetch="https://github.com/ze-zhang/" />
+  <remote name="riscv" fetch="https://github.com/riscv/" />
   <remote name="rvcore" fetch="https://github.com/ze-zhang/" />
+  <remote name="zboszor" fetch="https://github.com/zboszor/" />
+  <remote name="kraj" fetch="https://github.com/kraj/" />
+  <remote name="dpdk" fetch="https://git.yoctoproject.org/" />
+  <remote name="meta-virtualization" fetch="https://git.yoctoproject.org/" />
   <default remote="openembedded" revision="master" />
 
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="master" />
   <project name="meta-rvcore" remote="rvcore" path="meta-rvcore" revision="main" />
   <project name="poky" remote="yocto" path="poky" revision="master" />
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="master" />
+  <project name="meta-python-ai" remote="zboszor" path="meta-python-ai" revision="4adbd9ab89439296cfabc7086dbbd1ba380dd34e" />
+  <project name="meta-clang-revival" remote="zboszor" path="meta-clang-revival" revision="d54230b2763af3e549490576606ff54702a267ce" />
+  <project name="meta-clang" remote="kraj" path="meta-clang" revision="93dec321980091b8abfa1f7d72c50b844c63167c" />
+  <project name="meta-dpdk" remote="dpdk" path="meta-dpdk" revision="4f5ff4c3c86c90d9a2da787740be6b8b8b4de821" />
+  <project name="meta-virtualization" remote="meta-virtualization" path="meta-virtualization" revision="a309b738e73860781ee9099de5fc9df7ee22950c" />
 
 </manifest>
